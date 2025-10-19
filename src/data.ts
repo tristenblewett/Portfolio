@@ -1,4 +1,4 @@
-import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } from "./types";
+import { AboutMeData, Game, GameDesignDocument, GameEngine, LinkImageSource, MediaType, Platform } from "./types";
 
 export const PersonalInfo: AboutMeData = {
   name: "Tristen Blewett",
@@ -49,5 +49,13 @@ export const games: Game[] = [
       { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
     ],
+  }
+];
+
+export const gameDesignDocs: GameDesignDocument[] = [
+  {
+    title: "",
+    description: "",
+    file: `${process.env.PUBLIC_URL}/files/Forgotten Knight Game Design Document.pdf`,
   }
 ];

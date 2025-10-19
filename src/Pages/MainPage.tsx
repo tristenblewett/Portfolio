@@ -1,7 +1,8 @@
 import React from "react";
 import { styled } from "styled-components";
 import Game from "../Components/Game";
-import { games } from "../data";
+import GDD from "../Components/GDD";
+import { games, gameDesignDocs } from "../data";
 import { Column } from "../Styles/StyledComponents";
 
 const GamesContainer = styled(Column)`
@@ -28,6 +29,10 @@ const MainPage: React.FC = () => (
         {index !== games.length - 1 && <Seperator />}
       </React.Fragment>
     ))}
+
+    {/* 🧾 GDD Section */}
+    <Seperator />
+    <GDD docs={gameDesignDocs} />
   </GamesContainer>
 );
 

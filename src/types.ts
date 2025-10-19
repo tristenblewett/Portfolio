@@ -49,3 +49,9 @@ export interface Game {
   platforms: Platform[];
   engine: GameEngine;
 }
+
+export interface GameDesignDocument {
+  title: string;
+  description: string;
+  file: string;
+}
