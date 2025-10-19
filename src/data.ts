@@ -21,7 +21,7 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
+      { source: LinkImageSource.Github, url: "https://github.com/tristenblewett/The-Forgotten-Knight" },
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
     ],
     media: [
