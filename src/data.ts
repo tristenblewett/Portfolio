@@ -27,7 +27,7 @@ export const games: Game[] = [
     ],
     media: [
       { source: "/images/games/The_Forgotten_Knight/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/watch?v=gduer9F8O1Q", type: MediaType.YouTube },
+      { source: "https://www.youtube.com/embed/gduer9F8O1Q", type: MediaType.YouTube },
       { source: "/images/games/The_Forgotten_Knight/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/The_Forgotten_Knight/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/The_Forgotten_Knight/Screenshot_4.png", type: MediaType.Image },
