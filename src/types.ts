@@ -36,7 +36,6 @@ export interface AboutMeData {
   links: {
     github: string;
     itchIO: string;
-    linkedIn: string;
   };
 }
 
