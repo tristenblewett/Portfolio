@@ -3,8 +3,8 @@ import { AboutMeData, Game, GameDesignDocument, GameEngine, LinkImageSource, Med
 export const PersonalInfo: AboutMeData = {
   name: "Tristen Blewett",
   role: "Game Developer",
-  introduction: "SHORT_INTRODUCTION",
-  description: "TELL_ABOUT_YOURSELF",
+  introduction: "I am an aspiring game developer with a strong passion for creating engaging, story driven experiences that immerse players in rich, interactive worlds. I specialize in developing games with Unity and have extensive experience building and managing game servers. My goal is to craft memorable gameplay that combines technical precision with emotional storytelling.",
+  description: "",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/Resume.pdf`,
   links: {
@@ -16,13 +16,13 @@ export const PersonalInfo: AboutMeData = {
 export const games: Game[] = [
   {
     name: "The Forgotten Knight",
-    description: "GAME_DESCRIPTION",
+    description: "Emotional storytelling of a Forgotten Knight's journey in returning to a Kingdom that once betrayed him and left him for dead. Password to try this game is Knight.",
     genres: ["2d Platformer", "Action", "Dark Fantasy", "Souls-like"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
       { source: LinkImageSource.Github, url: "https://github.com/tristenblewett/The-Forgotten-Knight" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.ItchIo, url: "https://darth-dougo.itch.io/the-forgotten-knight" },
     ],
     media: [
       { source: "/images/games/The_Forgotten_Knight/Screenshot_1.png", type: MediaType.Image },
@@ -33,29 +33,34 @@ export const games: Game[] = [
     ],
   },
   {
-    name: "GAME_NAME",
-    description: "GAME_DESCRIPTION",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    name: "The Nemesis",
+    description: "A simple fun game about Larry the Monkey going to save his anime body pillow from an Evil Bady Guy. Password to try this game is nemesis.",
+    genres: ["2d playformer", "Action"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
       { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.ItchIo, url: "https://darth-dougo.itch.io/the-nemesis" },
     ],
     media: [
-      { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
-      { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
+      { source: "/images/games/The_Nemesis/Screenshot_1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/DalxwNhh3IM", type: MediaType.YouTube },
+      { source: "/images/games/The_Nemesis/Screenshot_2.png", type: MediaType.Image },
+      { source: "/images/games/The_Nemesis/Screenshot_3.png", type: MediaType.Image },
+      { source: "/images/games/The_Nemesis/Screenshot_4.png", type: MediaType.Image },
     ],
   }
 ];
 
 export const gameDesignDocs: GameDesignDocument[] = [
   {
-    title: "",
+    title: "The Forgotten Knight Game Design Document",
     description: "",
     file: `${process.env.PUBLIC_URL}/files/Forgotten Knight Game Design Document.pdf`,
+  },
+  {
+    title: "The Nemesis Game Design Document",
+    description: "",
+    file: `${process.env.PUBLIC_URL}/files/The Nemesis GDD.pdf`,
   }
 ];
