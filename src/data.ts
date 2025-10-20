@@ -4,7 +4,10 @@ export const PersonalInfo: AboutMeData = {
   name: "Tristen Blewett",
   role: "Game Developer",
   introduction: "I am an aspiring game developer with a strong passion for creating engaging, story driven experiences that immerse players in rich, interactive worlds. I specialize in developing games with Unity and have extensive experience building and managing game servers. My goal is to craft memorable gameplay that combines technical precision with emotional storytelling.",
-  description: "",
+  description: "I've been gaming my whole life, it all started with the Super Nintendo and Super Mario World 2: Yoshi's Island.Ever since then, creating games has been a lifelong dream of mine. \n" +
+  "In high school, I began exploring coding and contributed to Star Wars Roleplay severs for Garry's Mod communities, creating custom scripts, classes, and gameplay systems. That experience sparked my love for game development and collaboration.\n" +
+  "During college, I took courses that deepened my understaning of the game industry learning Unity, developing game design documents, and strengthening my technical and creative skills. My previous experience working in development teams, designing systems, and coding gameplay helped me transition smoothly into Unity and C#.\n" +
+  "My goal is to create fun, in-depth, story rich games that immerse players in their worlds, just like the classics that inspired me. I'm now seeking an opportunity to join a passionate studio where I can grow, learn from others, and contribute to making amazing games.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/Resume.pdf`,
   links: {
