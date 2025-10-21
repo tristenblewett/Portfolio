@@ -51,8 +51,8 @@ const ContactMe: React.FC = () => {
     <CenterContainer>
       <ContactContainer>
         <Title>Contact Me</Title>
-        <Info>📞 Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></Info>
-        <Info>📧 Email: <a href="mailto:youremail@example.com">youremail@example.com</a></Info>
+        <Info>📞 Phone: <a href="tel:+1234567890">+1 (864) 404-9562</a></Info>
+        <Info>📧 Email: <a href="mailto:youremail@example.com">tblewett99@gmail.com</a></Info>
       </ContactContainer>
     </CenterContainer>
   );
